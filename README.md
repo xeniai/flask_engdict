@@ -1,2 +1,2 @@
 # flask_engdict
-English dictionary REST API Python app that uses Flask framework and Bootstrap for the front end. The searched word, is returned in python dictionary format.
+English dictionary REST API Python app that uses Flask framework. The searched word is returned as python dictionary format.
