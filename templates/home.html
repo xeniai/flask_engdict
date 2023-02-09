@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,22 +7,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
-
-<body class="fontstyle d-flex flex-column vh-100 bg-light">  
-    <!--Body-->
-    <div class="container">
-    <br>
-    <h1>Translator API</h1>
-    <br>
-    <h3>URL format http://localhost:5000/api/v1/word</h3>
-    <h3>URL format http://127.0.0.1:5000/api/v1/word</h3>
-    <p>Or you may set any port that you defined in main.py.</p>
-    <h3>URL example http://localhost:5000/api/v1/grateful</h3>
-    <br>
-    <img src="../static/images/flask_engdict.png">
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<body>
+  <div class="row">
+      <div class="col-6 offset-3">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1531379410502-63bfe8cdaf6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+            <div class="card-body">
+              <p class="card-text">/api/dictionary</p>
+              <p class="card-text">https://xenia.pythonanywhere.com/api/v1/type_the_word_here</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Example :
+                http://xenia.pythonanywhere.com/api/v1/idea
+                <br>
+                {"definition":"1. Initial idea or element that inspires an artistic or literary work.\n2. A plan or notion that is formed and exists in the mind as a result of mental activity.\n","word":"idea"}
+              </small>
+            </div>
+          </div>
+      </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
-
 </html>
